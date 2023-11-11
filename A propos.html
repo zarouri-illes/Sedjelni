@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!------------General stuff--------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedjelni</title>
+    <!---------------------------------------->
+
+    <!-------------Links------------->
+    <link rel="stylesheet" href="styles/style.css">
+    <!------------------------------->
+
+    <!--------------Font,Jquery etc...------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------------------------------------->
+
+</head>
+<body>
+
+     <!--------------Navbar------------->
+     <section id="menu">
+
+        <div class="logo">
+            <img src="images/logo.jpg" alt="">
+            <h2>Sedjelni</h2>
+        </div>
+
+        <div class="items">
+            <li><i class="fa-solid fa-user-pen"></i><a href="Sedjelni.html">Dashboard</a></li>
+            <li><i class="fa-solid fa-id-card-clip"></i><a href="A propos.html">À propos</a></li>
+        </div>
+    </section>
+    <!---------------------------------->
+
+
+    <!------------Content-------------->
+    <section id="interface">
+
+        
+
+        <div class="header">
+            <div id="bars">
+                <i class="fas fa-bars" id="menu-btn"></i>
+            </div>
+            <h1>VOUS UTILISEZ MAINTENANT LA VERSION 1.0 DE NOUVELLES VERSONS SONT VENUES AVEC DE NOUVELLES FONCTIONNALITÉS !</h1>
+        </div>
+
+         <!--------------About page---------------->
+         <div id="propos">
+            <h1 class="p_intro">À propos</h1>
+            <p>Sedjelni est un site réalisé par Zarouri Illes, Lycéen de 17 ans et développeur web. Sajalni propose aux propriétaires de cabinets médicaux un système d'organisation et d'inscription de leurs patients.</p>
+            <br><br>
+            <p>Ce site Web est libre d'utilisation et gratuit, Et n'utilise aucune donnée personnelle des utilisateurs. Tous les droits sont réservés.</p>
+            <br><br><br>
+            <p id="red"><span>NOTE IMPORTANTE</span> : Ce site Web ne possède pas et n'utilise pas de base de données, ce qui signifie que lorsque vous actualisez ou quittez le site Web, vos données seront oubliées et supprimées, Et il n'y a aucun moyen pour les récupérer, alors soyez prudent !</p>
+            <br><br><br>
+            <p style="text-align: center;">Suivez-moi sur mes réseaux sociaux pour être averti lorsque je fais de nouveaux projets etc...</p>
+            <br><br>
+            <div class="footer-social-links">
+                <a href="#" title="Facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <br>
+            <h1 id="email"><i class="fa-solid fa-envelope"></i>ileszarouri@gmail.com</p></h1>
+        </div>
+    </section>
+
+
+
+    <script>
+    $("#menu-btn").click(function () {
+        $('#menu').toggleClass('active');
+    })
+    </script>
+    
+</body>
+</html>
